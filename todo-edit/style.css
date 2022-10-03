@@ -1,0 +1,92 @@
+body {
+
+    background-color: rgb(190, 187, 154);
+    font-family: arial;
+
+}
+
+body,
+h1,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h3 {
+    padding: 5px;
+    /* color: rgb(71, 68, 64); */
+}
+
+#header {
+    background-image: url('bg.webp');
+    height: 250px;
+    background-size: cover;
+    background-position-y: center;
+    color: rgb(3, 0, 0);
+    padding: 10px;
+    box-shadow: -2px 9px 17px 3px rgba(170, 156, 135, 0.84);
+
+
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    /* padding: 15px;
+    color: rgb(71, 68, 64); */
+    /* margin-left: 500px; */
+
+}
+
+#header input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: rgb(151, 138, 118);
+    background-color: rgb(185, 182, 176);
+    /* background-color: red; */
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+
+}
+
+#section {
+    width: 500px;
+    margin: auto;
+}
+
+#task {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    position: relative;
+    top: -70px;
+    width: 350px;
+
+}
+
+#task ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+#task ul li {
+    padding: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(37, 35, 32);
+}
+
+#task ul li:last-child {
+    border: none;
+
+}
+
+#total {
+    position: relative;
+    top: -70px;
+    color: rgb(37, 35, 32);
+}
